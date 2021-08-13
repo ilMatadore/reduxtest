@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component should render Header component 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <Connect(Header)
+    addItem={[MockFunction]}
+    cartItems={
+      Array [
+        Object {
+          "id": 1,
+          "name": "Hat",
+          "price": 100,
+        },
+      ]
+    }
+    cartTotal={100}
+    clearItem={[MockFunction]}
+    clearItemFromCart={[MockFunction]}
+    currentUser={
+      Object {
+        "id": 1,
+        "name": "Walter",
+      }
+    }
+    fetchCollectionStartAsync={[MockFunction]}
+    hidden={true}
+    products={
+      Array [
+        Object {
+          "id": 1,
+          "name": "Hat",
+          "price": 100,
+        },
+      ]
+    }
+    userLogIn={[MockFunction]}
+    userLogOut={[MockFunction]}
+  />
+</ContextProvider>
+`;
